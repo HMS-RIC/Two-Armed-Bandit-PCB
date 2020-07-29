@@ -13625,7 +13625,10 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </classes>
 <parts>
 <part name="B1" library="SparkFun-Boards" library_urn="urn:adsk.eagle:library:509" deviceset="ARDUINO_UNO_R3_SHIELD" device="BASIC" package3d_urn="urn:adsk.eagle:package:37321/1"/>
-<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="NO_PACKAGE" package3d_urn="urn:adsk.eagle:package:37104/1"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="NO_PACKAGE" package3d_urn="urn:adsk.eagle:package:37104/1">
+<attribute name="DESIGNER" value="Ofer Mazor"/>
+<attribute name="VERSION" value="v01.1"/>
+</part>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="SCREW" package3d_urn="urn:adsk.eagle:package:38112/1" value="Nose_L"/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="Lick_L"/>
 <part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="Valve_L"/>
@@ -13646,7 +13649,6 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="160"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_05" device="SCREW" package3d_urn="urn:adsk.eagle:package:38112/1" value="Nose_C"/>
 <part name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_03" device="" package3d_urn="urn:adsk.eagle:package:38063/1" value="Lick_C"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="" package3d_urn="urn:adsk.eagle:package:38039/1" value="Valve_C"/>
@@ -13658,7 +13660,6 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="160"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="3.5MM-6" package3d_urn="urn:adsk.eagle:package:38122/1" value="DAQ_C"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_06" device="3.5MM-6" package3d_urn="urn:adsk.eagle:package:38122/1" value="DAQ_R"/>
@@ -13674,11 +13675,9 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="0309/12" package3d_urn="urn:adsk.eagle:package:23571/1" value="160"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" library_urn="urn:adsk.eagle:library:528" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VIN" device=""/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
@@ -13686,7 +13685,6 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_2MM" package3d_urn="urn:adsk.eagle:package:38029/1" value="5V"/>
 <part name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_01" device="PTH_2MM" package3d_urn="urn:adsk.eagle:package:38029/1" value="GND"/>
 <part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
 <part name="H2" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" deviceset="STAND-OFF" device="" package3d_urn="urn:adsk.eagle:package:38630/1"/>
@@ -13697,28 +13695,37 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <part name="U1" library="SparkFun-IC-Special-Function" library_urn="urn:adsk.eagle:library:527" deviceset="ULN2803" device="DIP" package3d_urn="urn:adsk.eagle:package:39200/1"/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="V_Valve"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="V_Valve"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="V_Valve"/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="V_Valve"/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="V_Valve"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="116.84" y="172.72" size="3.81" layer="94">Connections to components</text>
 <text x="116.84" y="172.72" size="3.81" layer="94">Connections to components</text>
-<text x="116.84" y="91.44" size="3.81" layer="94">Connections to DAQ</text>
-<text x="116.84" y="83.82" size="2.54" layer="94">LEFT</text>
+<text x="116.84" y="81.28" size="3.81" layer="94">Connections to DAQ</text>
+<text x="116.84" y="73.66" size="2.54" layer="94">LEFT</text>
 <text x="114.3" y="167.64" size="2.54" layer="94">LEFT</text>
 <text x="154.94" y="167.64" size="2.54" layer="94">CENTER</text>
-<text x="157.48" y="83.82" size="2.54" layer="94">CENTER</text>
+<text x="157.48" y="73.66" size="2.54" layer="94">CENTER</text>
 <text x="198.12" y="167.64" size="2.54" layer="94">RIGHT</text>
-<text x="198.12" y="83.82" size="2.54" layer="94">RIGHT</text>
+<text x="198.12" y="73.66" size="2.54" layer="94">RIGHT</text>
 <text x="228.6" y="167.64" size="2.54" layer="94">AUX</text>
-<text x="228.6" y="83.82" size="2.54" layer="94">AUX</text>
+<text x="228.6" y="73.66" size="2.54" layer="94">AUX</text>
+<text x="167.64" y="5.08" size="3.048" layer="94" font="vector">Ofer Mazor</text>
+<text x="238.76" y="5.08" size="3.048" layer="94" font="vector">1.1</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="30.48" y="149.86" smashed="yes">
 <attribute name="NAME" x="20.828" y="170.434" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="21.59" y="124.206" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="-2.54" smashed="yes"/>
+<instance part="FRAME1" gate="G$1" x="0" y="-2.54" smashed="yes">
+<attribute name="DESIGNER" x="0" y="-2.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="V" x="147.32" y="-2.54" smashed="yes">
 <attribute name="LAST_DATE_TIME" x="160.02" y="-1.27" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="233.68" y="-1.27" size="2.54" layer="94" font="vector"/>
@@ -13744,13 +13751,13 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <attribute name="VALUE" x="236.22" y="164.846" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="236.22" y="139.192" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J16" gate="G$1" x="119.38" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="124.46" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="124.46" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J16" gate="G$1" x="119.38" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="124.46" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="124.46" y="50.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J19" gate="G$1" x="231.14" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="236.22" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="236.22" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="J19" gate="G$1" x="231.14" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="236.22" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="236.22" y="50.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="J14" gate="G$1" x="27.94" y="27.94" smashed="yes">
 <attribute name="VALUE" x="17.78" y="38.1" size="1.778" layer="96" font="vector"/>
@@ -13762,8 +13769,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="GND2" gate="1" x="15.24" y="119.38" smashed="yes">
 <attribute name="VALUE" x="15.24" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="111.76" y="58.42" smashed="yes">
-<attribute name="VALUE" x="111.76" y="58.166" size="1.778" layer="96" align="top-center"/>
+<instance part="GND5" gate="1" x="111.76" y="48.26" smashed="yes">
+<attribute name="VALUE" x="111.76" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="12.7" y="139.7" smashed="yes">
 <attribute name="VALUE" x="12.7" y="142.494" size="1.778" layer="96" align="bottom-center"/>
@@ -13791,9 +13798,6 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="109.22" y="137.16" smashed="yes">
 <attribute name="VALUE" x="109.22" y="139.954" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="109.22" y="119.38" smashed="yes">
-<attribute name="VALUE" x="109.22" y="122.174" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J2" gate="G$1" x="162.56" y="154.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="165.1" y="164.846" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -13832,22 +13836,19 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="SUPPLY9" gate="G$1" x="152.4" y="137.16" smashed="yes">
 <attribute name="VALUE" x="152.4" y="139.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="152.4" y="119.38" smashed="yes">
-<attribute name="VALUE" x="152.4" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+<instance part="J8" gate="G$1" x="160.02" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="165.1" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="165.1" y="50.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J8" gate="G$1" x="160.02" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="165.1" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="165.1" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="GND6" gate="1" x="152.4" y="48.26" smashed="yes">
+<attribute name="VALUE" x="152.4" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="152.4" y="58.42" smashed="yes">
-<attribute name="VALUE" x="152.4" y="58.166" size="1.778" layer="96" align="top-center"/>
+<instance part="J9" gate="G$1" x="200.66" y="60.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="205.74" y="70.866" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="205.74" y="50.292" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
-<instance part="J9" gate="G$1" x="200.66" y="71.12" smashed="yes" rot="R180">
-<attribute name="VALUE" x="205.74" y="81.026" size="1.778" layer="96" font="vector" rot="R180"/>
-<attribute name="NAME" x="205.74" y="60.452" size="1.778" layer="95" font="vector" rot="R180"/>
-</instance>
-<instance part="GND7" gate="1" x="193.04" y="58.42" smashed="yes">
-<attribute name="VALUE" x="193.04" y="58.166" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="193.04" y="48.26" smashed="yes">
+<attribute name="VALUE" x="193.04" y="48.006" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="J11" gate="G$1" x="203.2" y="154.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="205.74" y="164.846" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -13886,20 +13887,14 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="SUPPLY12" gate="G$1" x="193.04" y="137.16" smashed="yes">
 <attribute name="VALUE" x="193.04" y="139.954" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY13" gate="G$1" x="193.04" y="119.38" smashed="yes">
-<attribute name="VALUE" x="193.04" y="122.174" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND17" gate="1" x="223.52" y="60.96" smashed="yes">
-<attribute name="VALUE" x="223.52" y="60.706" size="1.778" layer="96" align="top-center"/>
+<instance part="GND17" gate="1" x="223.52" y="50.8" smashed="yes">
+<attribute name="VALUE" x="223.52" y="50.546" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND18" gate="1" x="223.52" y="139.7" smashed="yes">
 <attribute name="VALUE" x="223.52" y="139.446" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="223.52" y="160.02" smashed="yes">
 <attribute name="VALUE" x="223.52" y="162.814" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY15" gate="G$1" x="76.2" y="35.56" smashed="yes">
-<attribute name="VALUE" x="76.2" y="38.354" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="JP1" gate="G$1" x="76.2" y="27.94" smashed="yes" rot="R270">
 <attribute name="NAME" x="76.581" y="25.4" size="1.778" layer="95" font="vector" rot="R270"/>
@@ -13926,16 +13921,13 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="GND19" gate="1" x="73.66" y="58.42" smashed="yes">
 <attribute name="VALUE" x="73.66" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="73.66" y="86.36" smashed="yes">
-<attribute name="VALUE" x="73.66" y="89.154" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY19" gate="G$1" x="73.66" y="76.2" smashed="yes">
 <attribute name="VALUE" x="73.66" y="78.994" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="H1" gate="G$1" x="104.14" y="45.72" smashed="yes"/>
-<instance part="H2" gate="G$1" x="109.22" y="45.72" smashed="yes"/>
-<instance part="H3" gate="G$1" x="104.14" y="40.64" smashed="yes"/>
-<instance part="H4" gate="G$1" x="109.22" y="40.64" smashed="yes"/>
+<instance part="H1" gate="G$1" x="104.14" y="35.56" smashed="yes"/>
+<instance part="H2" gate="G$1" x="109.22" y="35.56" smashed="yes"/>
+<instance part="H3" gate="G$1" x="104.14" y="30.48" smashed="yes"/>
+<instance part="H4" gate="G$1" x="109.22" y="30.48" smashed="yes"/>
 <instance part="J23" gate="G$1" x="223.52" y="124.46" smashed="yes">
 <attribute name="NAME" x="220.98" y="129.794" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="220.98" y="127.508" size="1.778" layer="96" font="vector"/>
@@ -13953,6 +13945,21 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <instance part="SUPPLY20" gate="G$1" x="48.26" y="60.96" smashed="yes">
 <attribute name="VALUE" x="48.26" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="SUPPLY4" gate="G$1" x="149.86" y="119.38" smashed="yes">
+<attribute name="VALUE" x="149.86" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="106.68" y="119.38" smashed="yes">
+<attribute name="VALUE" x="106.68" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="190.5" y="119.38" smashed="yes">
+<attribute name="VALUE" x="190.5" y="122.174" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="76.2" y="35.56" smashed="yes">
+<attribute name="VALUE" x="76.2" y="38.354" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="73.66" y="86.36" smashed="yes">
+<attribute name="VALUE" x="73.66" y="89.154" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13965,8 +13972,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="1"/>
-<wire x1="114.3" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="111.76" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
+<label x="111.76" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*D6"/>
@@ -13982,8 +13989,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
-<label x="111.76" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="111.76" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="D2"/>
@@ -13999,8 +14006,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="3"/>
-<wire x1="114.3" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<label x="111.76" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="60.96" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
+<label x="111.76" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*D3"/>
@@ -14016,8 +14023,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="4"/>
-<wire x1="114.3" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<label x="111.76" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="114.3" y1="58.42" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="111.76" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*D10"/>
@@ -14033,8 +14040,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
-<label x="152.4" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="152.4" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="*D5"/>
@@ -14050,8 +14057,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="73.66" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="152.4" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="152.4" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="A0"/>
@@ -14067,8 +14074,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="3"/>
-<wire x1="154.94" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
-<label x="152.4" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="152.4" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="D13"/>
@@ -14084,8 +14091,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="4"/>
-<wire x1="154.94" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
-<label x="152.4" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="154.94" y1="58.42" x2="152.4" y2="58.42" width="0.1524" layer="91"/>
+<label x="152.4" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="D8"/>
@@ -14096,8 +14103,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="NOSE_R" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
-<label x="193.04" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
+<label x="193.04" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J11" gate="G$1" pin="3"/>
@@ -14113,8 +14120,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="LICK_R" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
-<label x="193.04" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="193.04" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J12" gate="J$1" pin="2"/>
@@ -14135,8 +14142,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="3"/>
-<wire x1="195.58" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
-<label x="193.04" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<label x="193.04" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="D4"/>
@@ -14147,8 +14154,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="LED_R" class="0">
 <segment>
 <pinref part="J9" gate="G$1" pin="4"/>
-<wire x1="195.58" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
-<label x="193.04" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
+<label x="193.04" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -14164,8 +14171,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="AUX_1_LASER" class="0">
 <segment>
 <pinref part="J19" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="76.2" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<label x="223.52" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="223.52" y="66.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="3"/>
@@ -14186,8 +14193,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="AUX_2" class="0">
 <segment>
 <pinref part="J19" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
-<label x="223.52" y="73.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<label x="223.52" y="63.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="4"/>
@@ -14203,8 +14210,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="AUX_3" class="0">
 <segment>
 <pinref part="J19" gate="G$1" pin="3"/>
-<wire x1="226.06" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="223.52" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
+<label x="223.52" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="5"/>
@@ -14220,8 +14227,8 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <net name="AUX_4" class="0">
 <segment>
 <pinref part="J19" gate="G$1" pin="4"/>
-<wire x1="226.06" y1="68.58" x2="223.52" y2="68.58" width="0.1524" layer="91"/>
-<label x="223.52" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="226.06" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<label x="223.52" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="6"/>
@@ -14261,13 +14268,13 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="6"/>
-<wire x1="114.3" y1="63.5" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="111.76" y1="60.96" x2="111.76" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="50.8" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J16" gate="G$1" pin="5"/>
-<wire x1="114.3" y1="66.04" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="63.5" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-<junction x="111.76" y="63.5"/>
+<wire x1="114.3" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="53.34" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
+<junction x="111.76" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J10" gate="G$1" pin="2"/>
@@ -14315,23 +14322,23 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J8" gate="G$1" pin="6"/>
-<wire x1="154.94" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="53.34" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="152.4" y1="60.96" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="50.8" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="5"/>
-<wire x1="154.94" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="63.5" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
-<junction x="152.4" y="63.5"/>
+<wire x1="154.94" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="53.34" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="152.4" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J9" gate="G$1" pin="6"/>
-<wire x1="195.58" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="53.34" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="193.04" y1="60.96" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="50.8" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="J9" gate="G$1" pin="5"/>
-<wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="63.5" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="193.04" y="63.5"/>
+<wire x1="195.58" y1="55.88" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="53.34" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
+<junction x="193.04" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="2"/>
@@ -14357,12 +14364,12 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 </segment>
 <segment>
 <pinref part="J19" gate="G$1" pin="6"/>
-<wire x1="226.06" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="53.34" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="J19" gate="G$1" pin="5"/>
-<wire x1="226.06" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
-<junction x="223.52" y="63.5"/>
+<wire x1="226.06" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="55.88" x2="223.52" y2="53.34" width="0.1524" layer="91"/>
+<junction x="223.52" y="53.34"/>
 </segment>
 <segment>
 <pinref part="J13" gate="G$1" pin="8"/>
@@ -14415,21 +14422,6 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <pinref part="SUPPLY2" gate="G$1" pin="VIN"/>
 <pinref part="J14" gate="G$1" pin="PWR"/>
 <wire x1="40.64" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J7" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="119.38" x2="109.22" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="119.38" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="G$1" pin="VIN"/>
-</segment>
-<segment>
-<pinref part="J15" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="119.38" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY13" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
@@ -14584,22 +14576,37 @@ ULN2803 Darlington array. 500mA max per channel, 8-channel package. Spark Fun El
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VCC" class="1">
-<segment>
-<pinref part="JP1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="33.02" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J18" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
-<wire x1="73.66" y1="86.36" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-</segment>
+<net name="V_VALVE" class="1">
 <segment>
 <pinref part="U1" gate="G$1" pin="10"/>
 <wire x1="45.72" y1="60.96" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY20" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="119.38" x2="149.86" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J15" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="76.2" y1="33.02" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="J18" gate="G$1" pin="1"/>
+<wire x1="76.2" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="86.36" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 </nets>
