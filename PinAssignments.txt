@@ -1,0 +1,27 @@
+# Pin assignments for 2-Armed Bandit PCB
+(designed to be backward compatible with existing/old setup)
+
+## Left Port
+beam = 6
+solenoid = 3
+LED = 10
+Lick = 2
+
+## Center Port
+beam = 5
+solenoid = 13
+LED = 8
+Lick = A0 (14)
+
+## Right Post
+beam = 7
+solenoid = 4
+LED = 9
+Lick = A1 (15)
+
+## Auxiliary IO pins
+Aux 1 (Laser) = 12
+Aux 2 (Inscopix) = 11
+Aux 3 = A2 (16)
+Aux 4 = A3 (17)
+
