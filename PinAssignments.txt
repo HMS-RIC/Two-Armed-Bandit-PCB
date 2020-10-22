@@ -20,8 +20,11 @@ LED = 9
 Lick = A1 (15)
 
 ## Auxiliary IO pins
-Aux 1 (Laser) = 12
-Aux 2 (Inscopix) = 11
+Aux 1 (Laser) = 11
+Aux 2 (Inscopix) = 12
 Aux 3 = A2 (16)
 Aux 4 = A3 (17)
 
+
+## Changelog
+v1.1: swapped Aux-1 and Aux-2, so that Aux-1/Laser could have PWM on pin 11
