@@ -56,3 +56,8 @@ eagle.epf
 *.lck
 
 # End of https://www.toptal.com/developers/gitignore/api/eagle
+
+
+## Some MacOS files
+.DS_Store
+._*
