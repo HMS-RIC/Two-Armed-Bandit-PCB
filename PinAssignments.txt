@@ -28,3 +28,4 @@ Aux 4 = A3 (17)
 
 ## Changelog
 v1.1: swapped Aux-1 and Aux-2, so that Aux-1/Laser could have PWM on pin 11
+	  this puts Inscopix on pin 12 (make sure to change the Matlab code for both of these)
